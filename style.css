@@ -1,11 +1,7 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
-    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS8JH6eaP22GW7wUyYtfqujCKr0YQzBxwGsXw&usqp=CAU");
+    background-color: #FFFFFF;
 
-    /* background image options: 1. https://pixahive.com/wp-content/uploads/2021/03/music-illustration-387168-pixahive.jpg 2. https://images.rawpixel.com/image_800/czNmcy1wcml2YXRlL3Jhd3BpeGVsX2ltYWdlcy93ZWJzaXRlX2NvbnRlbnQvbHIvYTAxMC1tYXJrdXNzcGlza2UtZmViMTktbXNwXzE5MDJfNTAyMy5qcGc.jpg 3. https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS8JH6eaP22GW7wUyYtfqujCKr0YQzBxwGsXw&usqp=CAU */
-
-    background-repeat: no-repeat;
-    background-size: cover;
   }
   /* What kind of selector is this? */
   .logo {
@@ -36,17 +32,18 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 20px;
     border-radius: 25px;
-    background: transparent;
-    padding: 20px;
+    background: #364971;
+    padding: 15px;
     text-align: center;
-    border: 2px solid white;
+    border: 2px ridge black;
+    text-decoration: none;
   }
 
   .has-border {
     border-radius: 25px;
-    border: 2px solid #0795C3;
-    background: none;
-    padding: 20px;
+    border: 2px ridge black;
+    background: #364971;
+    padding: 15px;
   }
 
   nav {
@@ -57,24 +54,33 @@ body {
   }
   /* This is an ID selector */
   #profile-pic {
-    width: 300px;
-    height: 300px;
+    width: 350px;
+    height: 350px;
     border-radius: 50%;
     margin: 15% auto;
-    grid-column: 2/3;
+    grid-column: 3/3;
+  
   }
-
   h1 {
-    color:white;
+    color: black;
     grid-column: 2/3;
     margin: 3% auto;
-    border-bottom: 2px solid #1940A9;;
+    font-size: 25px;
+  }
+  h2 {
+    color: #364971;
+    grid-column: 2/3;
+    margin: 3% auto;
+    font-size: 50px;
+
   }
 
-  h2 {
+  h3 {
     grid-column: 2/3;
     margin: 3% auto;
     font-style: italic;
+    color: #49494a
+    font-size: 20px;
   }
 
   .small-text {
@@ -87,7 +93,7 @@ body {
   button {
     grid-column: 2/3;
     margin: 3% auto;
-    width: 70%;
+    width: 40%;
     height: 15%;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 20px;
@@ -96,7 +102,7 @@ body {
     padding: 20px;
     padding-bottom: 5%;
     text-align: center;
-    color: white;
+    color: black;
     letter-spacing: 16px;
     font-style: italic;
   }

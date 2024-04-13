@@ -2,12 +2,32 @@ body {
     background-color: #f4f4f4;
     font-family: Arial, sans-serif;
     padding: 20px;
-    margin: 0;
+    margin: auto;
     width: 50%;
-    /* align-self: center; , I thought this would work but didnt */
   }
+.resume-header {
+  display:grid;
+  grid-template-columns: 1fr 1fr ;
+  background-color: rgb(99, 139, 240);
+  border-bottom: 2px solid #ccc;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 20px;
+}
 
-.resume-header img{
+.image-container {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.image-container img{
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  border-radius: 70%;
+}
+/* .resume-header img{
     width: 400px;
     height: 350px;
     border-radius: 70%;
@@ -23,7 +43,7 @@ body {
     background-color: rgb(99, 139, 240);
     border-bottom: 2px solid #ccc;
 
-}
+} */
 
 .nameofelon {
   font-size: 80px;
@@ -77,4 +97,17 @@ nav a:hover{
   flex:1;
 }
 
-  
+h2{
+    margin-left: 30px;
+    margin-bottom: 0px;
+  }
+
+.right-c p{
+  margin: 20px 20px 20px 20px;
+
+  }
+
+ul{
+  margin-top: 0px;
+
+  }

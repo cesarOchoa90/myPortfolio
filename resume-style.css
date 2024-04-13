@@ -1,25 +1,80 @@
-.ElonM {
-    width: 300px; /* Or the size you want */
-    height: 400%; /* Equal to the width for a perfect circle */
-    border-radius: 70%; /* This creates the circular shape */
-    object-fit: cover; /* This ensures the image covers the area without stretching. Useful for non-square images. */
+body {
+    background-color: #f4f4f4;
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    margin: 0;
+    width: 50%;
+    /* align-self: center; , I thought this would work but didnt */
   }
 
-  .resume-header{
-    text-align: center;
-    margin-bottom: 2%;
+.resume-header img{
+    width: 400px;
+    height: 350px;
+    border-radius: 70%;
+    object-fit: cover;
+    margin-bottom: 10px;
+}
+
+.resume-header{
     display:flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 20px;
+    background-color: rgb(99, 139, 240);
+    border-bottom: 2px solid #ccc;
 
+}
 
-  }
+.nameofelon {
+  font-size: 80px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  color: white;
+}
 
-  .ElonPic{
-    display:flex;
-    
-  }
-  .resume-columns {
+.undernf{
+  font-size:30px;
+  color:white;
+}
+
+h2 {
+  color:#0f2573;
+  border-bottom: 1px solid #ccc;
+  display: inline-block;
+}
+
+nav a {
+  text-decoration: none;
+  color: black;
+  padding: 8px 16px;
+  display: inline-block;
+}
+
+nav a:hover{
+  color:blue;
+}
+
+.resume-columns {
     display:flex;
     justify-content: space-between;
-  }
+    /* align-content:center; */
+    /* padding: 20px; */
+    background-color:white;
+    /* align-items: center; I thought this would align my text to the center, I am thinking that the reason why my text is so close to the border of the column might have to do with the margin, or padding */
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1)
+}
+
+.resume-column {
+    width: calc(50% - 10px);
+    align-content:center;
+
+}
+
+.left-c{
+
+  background-color:rgb(227, 223, 223);
+  flex:1;
+}
 
   

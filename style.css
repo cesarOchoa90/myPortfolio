@@ -19,8 +19,10 @@ body {
   main {
     height: auto;
     width: 100%;
-    display: grid;
-    grid-template-columns: 30% 40% 30%;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-evenly ;
+
   }
 
   /* This is an element within and element selector */ 
@@ -57,26 +59,34 @@ body {
     width: 350px;
     height: 350px;
     border-radius: 50%;
-    margin: 15% auto;
-    grid-column: 3/3;
+    /* margin: 15% 15%; */
+    
   
+  }
+
+  .inner-content {
+
+
   }
   h1 {
     color: black;
-    grid-column: 2/3;
+    /* grid-column: 2/3;
+    grid-row: 2/3; */
     margin: 3% auto;
     font-size: 25px;
   }
   h2 {
     color: #364971;
-    grid-column: 2/3;
+    /* grid-column: 2/3;
+    grid-row: 2/3; */
     margin: 3% auto;
     font-size: 50px;
 
   }
 
   h3 {
-    grid-column: 2/3;
+    /* grid-column: 2/3;
+    grid-row: 2/3; */
     margin: 3% auto;
     font-style: italic;
     color: #49494a
@@ -84,14 +94,16 @@ body {
   }
 
   .small-text {
-    grid-column: 2/3;
+    /* grid-column: 2/3;
+    grid-row: 2/3; */
     color: white;
     font-size: 10px;
     margin: 3% auto;
   }
 
   button {
-    grid-column: 2/3;
+    /* grid-column: 2/3;
+    grid-row: 2/3; */
     margin: 3% auto;
     width: 40%;
     height: 15%;

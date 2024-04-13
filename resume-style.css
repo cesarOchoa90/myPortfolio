@@ -1,0 +1,25 @@
+.ElonM {
+    width: 300px; /* Or the size you want */
+    height: 400%; /* Equal to the width for a perfect circle */
+    border-radius: 70%; /* This creates the circular shape */
+    object-fit: cover; /* This ensures the image covers the area without stretching. Useful for non-square images. */
+  }
+
+  .resume-header{
+    text-align: center;
+    margin-bottom: 2%;
+    display:flex;
+
+
+  }
+
+  .ElonPic{
+    display:flex;
+    
+  }
+  .resume-columns {
+    display:flex;
+    justify-content: space-between;
+  }
+
+  

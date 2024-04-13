@@ -19,9 +19,12 @@ body {
   main {
     height: auto;
     width: 100%;
-    display: flex;
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+    /* display: flex;
     flex-direction: row-reverse;
-    justify-content: space-evenly ;
+    justify-content: space-evenly ; */
 
   }
 
@@ -65,7 +68,9 @@ body {
   }
 
   .inner-content {
-
+    margin-right: 550px;
+    width: 400px;
+    height: 350px;
 
   }
   h1 {
@@ -89,7 +94,7 @@ body {
     grid-row: 2/3; */
     margin: 3% auto;
     font-style: italic;
-    color: #49494a
+    color: #49494a;
     font-size: 20px;
   }
 

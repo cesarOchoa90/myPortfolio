@@ -74,13 +74,19 @@ nav a:hover{
   color:blue;
 }
 
+nav {
+
+  width:300px;
+  height:150px;
+  padding-top: 10px;
+}
+
 .resume-columns {
     display:flex;
     justify-content: space-between;
     /* align-content:center; */
     /* padding: 20px; */
     background-color:white;
-    /* align-items: center; I thought this would align my text to the center, I am thinking that the reason why my text is so close to the border of the column might have to do with the margin, or padding */
     border-radius: 5px;
     box-shadow: 0 0 10px rgba(0,0,0,0.1)
 }

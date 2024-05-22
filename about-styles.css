@@ -12,7 +12,17 @@ nav {
     float: left;
     display: block;
     margin-left:15px;
+    font-size: 20px;
+    color: hsl(221, 35%, 33%);
+    font-style: none;
+    font-family: Arial, Helvetica, sans-serif;
 }
+
+/* Prevent links from turning purple after being visited */
+a:visited {
+  color: inherit; /* or specify another color */
+}
+
 
 header {
   display:flex;
@@ -58,7 +68,7 @@ img {
 }
 
 img:hover {
-  cursor: url(https://www.rw-designer.com/cursor-extern.php?id=16009), pointer;
+  cursor: url(http://www.rw-designer.com/cursor-extern.php?id=16009), pointer;
 }
 
 

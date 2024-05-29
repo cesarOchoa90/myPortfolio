@@ -1,0 +1,92 @@
+body {
+    background-color: #f4f4f4;
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    margin: auto;
+    width: 60%;
+  }
+.resume-header {
+  background-color: rgb(32, 63, 221);
+  border-bottom: 2px solid #ccc;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 20px;
+}
+body :hover{
+  cursor: pointer;
+}
+
+.nameofelon {
+  font-size: 80px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  color: white;
+}
+
+.undernf{
+  font-size:30px;
+  color:white;
+}
+
+h2 {
+  color:#0f2573;
+  border-bottom: 1px solid #ccc;
+  display: inline-block;
+}
+
+nav a {
+  text-decoration: none;
+  color: black;
+  padding: 8px 16px;
+  display: inline-block;
+}
+
+nav a:hover{
+  color:blue;
+}
+
+nav {
+
+  width:300px;
+  height:150px;
+  padding-top: 10px;
+  display:flex;
+  justify-content:flex-start;
+  align-items: center;
+}
+
+.resume-columns {
+    display:flex;
+    justify-content: space-between;
+    /* align-content:center; */
+    /* padding: 20px; */
+    background-color:white;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1)
+}
+
+.resume-column {
+    /* width: calc(50% - 10px); */
+    align-content:center;
+
+}
+
+.left-c{
+
+  background-color:rgb(227, 223, 223);
+}
+
+h2{
+    margin-left: 30px;
+    margin-bottom: 0px;
+  }
+
+.right-c p{
+  margin: 20px 20px 20px 20px;
+
+  }
+
+ul{
+  margin-top: 0px;
+
+  }
